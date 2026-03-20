@@ -125,3 +125,25 @@ body {
 #topo h1 {
     animation: aparecer 2s;
 }
+
+@keyframes subir {
+    from {
+        transform: translateY(20px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.box {
+    animation: subir 1s;
+}
+
+footer {
+    background-color: rgba(26, 59, 248, 0.5);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
