@@ -1,0 +1,35 @@
+.layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 80px auto 60px;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 80px auto 60px;
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
